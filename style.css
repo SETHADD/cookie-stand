@@ -1,8 +1,82 @@
-table  {
-    border-collapse: collapse;
-    border: 1px solid black;
-    }
+*{
+    box-sizing: border-box;
+    margin: auto;
+    font-family: "sofia",sans-serif ;
+}
 
-td , tr{
-        border:1px solid black;
-        }
+body{
+    padding-left: 5%;
+    /* max-width: 600px; */
+    background-color: antiquewhite;
+
+}
+
+
+header div{
+    text-align: center ;
+}
+
+.headerContainer{
+    display: inline;
+    text-align: center;
+}
+
+.headerContainer img{
+    width: 30%;
+}
+
+.footerContainer div{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-weight: 700;
+    margin-bottom: 5pt;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+button{
+    display: block;
+    margin-top: 5px;
+    width: 10pc;
+    height: 2pc;
+}
+
+button:hover{
+    background: black;
+    color:white;
+    transition: 2s;
+}
+
+table,th,td{
+    border-collapse: collapse;
+    border: solid brown;
+}
+
+table{
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+  }
+
+  fieldset{
+    border-color: brown;
+    margin-right: 3.5rem;
+    margin-left: 3.5rem;
+  }
+
+  legend{
+    font-size: larger;
+  }
